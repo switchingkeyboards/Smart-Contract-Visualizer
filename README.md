@@ -48,3 +48,8 @@ with the filename `tokenMetaSKB.sol` with the following json structure:
  The URI for this structure should then be added to the contract with the call:
 
  `set_metadata(<Your_Metadata_URI>)`
+
+
+# Design Note
+
+Feel free to be a "great artist" about your design. ;)
