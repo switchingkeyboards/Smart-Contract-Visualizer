@@ -6,7 +6,7 @@ Install all dependencies:
 yarn
 ```
 
-Runs the app in development mode.
+Run the app in development mode.
 
 ```
 yarn start

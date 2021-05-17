@@ -12,6 +12,9 @@ import {
   Spinner,
   VStack,
   Button,
+  Code,
+  Link,
+  Text,
 } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -61,6 +64,12 @@ function App() {
       <VStack h="100vh">
         <Heading mt={16}>Token Visualizer</Heading>
         <Box w="full" h="full">
+          <Link
+            href={`https://ropsten.etherscan.io/address/${process.env.REACT_APP_CONTRACT_ADDRESS}`}
+            isExternal
+          >
+            <Text as="samp">{process.env.REACT_APP_CONTRACT_ADDRESS}</Text>
+          </Link>
           <Grid p={3} h="full">
             <GridItem display="flex" alignItems="flex-end">
               <TokenStat label="Total Supply" number={totalSupply} />
