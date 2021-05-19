@@ -39,7 +39,9 @@ function App() {
     data = parseJsonString(JSON.stringify(data));
     dispatch(setMetadata(data));
 
-    // await contract.methods.finish().send({ from: process.env.REACT_APP_OWNER_ADDRESS, gas: 1000000 });
+    // await contract.methods
+    //   .finish()
+    //   .send({ from: process.env.REACT_APP_OWNER_ADDRESS, gas: 1000000 });
   };
 
   useEffect(() => {
