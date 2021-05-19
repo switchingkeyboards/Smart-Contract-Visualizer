@@ -1,6 +1,6 @@
 # SwitchingKeyboardsToken Visualizer
 
-*One-page visualization* for contract deployed at Testnet Ropsten Contract Address: `0xC7C0c7b22F018E111A094a8C3C0f0DF3A596C137` [Link](https://ropsten.etherscan.io/address/0xC7C0c7b22F018E111A094a8C3C0f0DF3A596C137#code)
+*One-page visualization* for contract deployed at Testnet Ropsten Contract Address: [`0xC7C0c7b22F018E111A094a8C3C0f0DF3A596C137`](https://ropsten.etherscan.io/address/0xC7C0c7b22F018E111A094a8C3C0f0DF3A596C137#code)
 
 Implemented through React Application with Redux state management
 
